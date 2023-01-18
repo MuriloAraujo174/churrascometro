@@ -5,6 +5,7 @@ background-size: cover;
 background-position: top;
 background-position: left;
 background-size: 1477px;
+height: 100vh;
 }
 
 .container{
@@ -36,10 +37,3 @@ border: none;
 padding: 10px;
 }
 
-@media screen and (max-width: 500px){
-    body {
-        background-size: cover;
-        background-repeat: repeat-y;
-        background-position-y: bottom;
-    }
-}
